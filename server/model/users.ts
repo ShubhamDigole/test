@@ -1,6 +1,6 @@
 import { model, Schema } from "mongoose";
 
-const userScheema = new Schema({
+const userSchema = new Schema({
     first_name: {
         type: String
     },
@@ -22,4 +22,4 @@ const userScheema = new Schema({
     isAdmin: Boolean
 });
 
-module.exports = model('user', userScheema, 'users');  
+module.exports = model('user', userSchema, 'users');  

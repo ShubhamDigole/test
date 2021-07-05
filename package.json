@@ -25,11 +25,11 @@
     "nodemon": "^1.19.4"
   },
   "scripts": {
-		"start": "cd dist && node server.js",
-		"tsc": "node_modules/typescript/bin/tsc",
-		"server": "tsc && node dist/server.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
+    "start": "cd dist && node server.js",
+    "tsc": "node_modules/typescript/bin/tsc",
+    "server": "tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "manoj shinde",
   "license": "ISC"
 }
